@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>PDF Summarizer</h1>
+
+<form method="POST"
+      enctype="multipart/form-data">
+
+    <input type="file"
+           name="pdf">
+
+    <button type="submit">
+        Summarize
+    </button>
+
+</form>
+
+<hr>
+
+<pre>{{ summary }}</pre>
+
+</body>
+</html>
